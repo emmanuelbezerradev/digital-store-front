@@ -1,7 +1,11 @@
 import camiseta from "../assets/camiseta.png"
 import tenis from "../assets/tenis-2.png"
 import fone from "../assets/fone.png"
-
+import blusa from "../assets/blusa.svg"
+import calca from "../assets/calça.svg"
+import cap from "../assets/cap.svg"
+import headset from "../assets/headset.svg"
+import tenis2 from "../assets/tenis.svg"
 const SectionDestaques = () => {
     return ( 
         <>
@@ -38,31 +42,31 @@ const SectionDestaques = () => {
         <div className="departamentos">
           <div>
             <div className="icon">
-              <img src="img/blusa.svg" alt="blusa" />
+              <img src={blusa} alt="blusa" />
             </div>
             Camisetas
           </div>
           <div>
             <div className="icon">
-              <img src="img/calça.svg" alt="blusa" />
+              <img src={calca} alt="calça" />
             </div>
             Calças
           </div>
           <div>
             <div className="icon">
-              <img src="img/cap.svg" alt="boné" className="bone" />
+              <img src={cap} alt="boné" className="bone" />
             </div>
             boné
           </div>
           <div>
             <div className="icon">
-              <img src="img/headset.svg" alt="headset" />
+              <img src={headset} alt="headset" />
             </div>
             Headsets
           </div>
           <div>
             <div className="icon">
-              <img src="img/tenis.svg" alt="tenis" />
+              <img src={tenis2} alt="tenis" />
             </div>
             Tênis
           </div>

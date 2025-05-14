@@ -1,6 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
     padding: 0;
@@ -285,8 +285,8 @@ main {
                 filter: invert(20%) sepia(65%) saturate(3303%) hue-rotate(313deg) brightness(94%) contrast(95%);
             }
         }
+        }
     }
-}
 
 #produtos {
     margin-top: 120px;

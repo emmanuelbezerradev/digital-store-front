@@ -21,10 +21,8 @@ const SectionBanner = () => {
             Ver Ofertas
           </a>
         </div>
-        <div class="">
           <img src={brilho} alt="" className="detalhe" />
           <img src={banner} alt="" className="tenis" />
-        </div>
       </section>
     </>
   );
