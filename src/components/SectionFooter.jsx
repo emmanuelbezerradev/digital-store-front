@@ -39,7 +39,7 @@ const SectionFooter = () => {
           </div>
           <div>
             <h5>Contato</h5>
-            <a href="">
+            <a href="https://www.google.com/maps?q=Av.+Santos+Dumont,+1510+-+1+andar+-+Aldeota,+Fortaleza+-+CE+60150-161" target="_blank" rel="noopener noreferrer">
               <address>
                 Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE 60150-161
               </address>
